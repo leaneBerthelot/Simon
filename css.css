@@ -1,0 +1,52 @@
+.littleCircle{
+    background: black;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 150px; left: 150px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigCircle{
+    background: black;
+    border-radius: 100%;
+    width: 610px;
+    height: 610px;
+    position: absolute;
+    top: 0px; left: 0px;
+    z-index: 0;
+}
+.shape{
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    z-index: 1;
+}
+#shape1{
+    background: green;
+    border-top-left-radius: 100%;
+    top: 10px; left: 10px;
+}
+#shape2{
+    background: yellow;
+    border-top-right-radius: 100%;
+    top: 10px; left: 310px;
+}
+#shape3{
+    background: red;
+    border-bottom-left-radius: 100%;
+    top: 310px; left: 10px;
+}
+#shape4{
+    background: blue;
+    border-bottom-right-radius: 100%;
+    top: 310px; left: 310px;
+}
+.level{
+    text-align: center;
+color: white;
+}
+
